@@ -1,0 +1,32 @@
+.layout {
+  min-height: 100vh;
+}
+
+.content {
+  padding: 0 50px;
+}
+
+.content-container {
+  background: #fff;
+  padding: 24px;
+  min-height: 280px;
+  margin-top: 24px;
+  border-radius: 8px;
+}
+
+.logo {
+  float: left;
+  width: 120px;
+  height: 31px;
+  margin: 16px 24px 16px 0;
+  background: rgba(255, 255, 255, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: bold;
+}
+
+.nav-menu {
+  margin-left: 25px;
+}
