@@ -29,7 +29,7 @@ const Contact = () => {
                 <MailOutlined style={{ fontSize: '18px', marginRight: 12 }} />
                 <Text strong>Email:</Text>
                 <Paragraph style={{ marginLeft: 30 }}>
-                  <Link href="mailto:your.email@example.com">your.email@example.com</Link>
+                  <Link href="mailto:your.email@example.com">khorbaladzeemariam@gmail.com</Link>
                 </Paragraph>
               </div>
               
@@ -37,7 +37,7 @@ const Contact = () => {
                 <PhoneOutlined style={{ fontSize: '18px', marginRight: 12 }} />
                 <Text strong>Phone:</Text>
                 <Paragraph style={{ marginLeft: 30 }}>
-                  <Link href="tel:+995500000000">+995 500 00 00 00</Link>
+                  <Link href="tel:+995050539">+995 557 05 05 39</Link>
                 </Paragraph>
               </div>
               
@@ -53,33 +53,32 @@ const Contact = () => {
 
           <Card title="Social Media" bordered={false} style={{ marginTop: 24 }}>
             <Space size="large" wrap>
-              <Link href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer">
+              <Link href="https://github.com/MariKhorbaladze" target="_blank" rel="noopener noreferrer">
                 <GithubOutlined style={{ fontSize: '24px' }} /> GitHub
               </Link>
-              <Link href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer">
+              <Link href="https://www.linkedin.com/in/mari-khorbaladze-7a7944264/" target="_blank" rel="noopener noreferrer">
                 <LinkedinOutlined style={{ fontSize: '24px' }} /> LinkedIn
               </Link>
-              {/* You can add other social media links */}
             </Space>
           </Card>
         </Col>
         
         <Col xs={24} md={12}>
-          <Card title="Working Hours" bordered={false}>
+          <Card title="Employment type" bordered={false}>
             <Space direction="vertical" size="middle" style={{ width: '100%' }}>
               <div>
                 <CalendarOutlined style={{ fontSize: '18px', marginRight: 12 }} />
-                <Text strong>Monday - Friday:</Text>
-                <Paragraph style={{ marginLeft: 30 }}>
+                <Text strong>Full-time, Internship</Text>
+                {/* <Paragraph style={{ marginLeft: 30 }}>
                   10:00 AM - 6:00 PM
-                </Paragraph>
+                </Paragraph> */}
               </div>
               <div>
                 <CalendarOutlined style={{ fontSize: '18px', marginRight: 12 }} />
-                <Text strong>Saturday - Sunday:</Text>
-                <Paragraph style={{ marginLeft: 30 }}>
+                <Text strong>On-Site, Remote, Hybrid</Text>
+                {/* <Paragraph style={{ marginLeft: 30 }}>
                   Rest days
-                </Paragraph>
+                </Paragraph> */}
               </div>
             </Space>
           </Card>
@@ -90,7 +89,7 @@ const Contact = () => {
                 <MessageOutlined style={{ fontSize: '18px', marginRight: 12 }} />
                 <Text strong>What types of projects do you work on?</Text>
                 <Paragraph style={{ marginLeft: 30 }}>
-                  I work on web applications with React, mobile applications, and UI/UX design projects.
+                  I work on web applications with React. I create user-friendly interface.
                 </Paragraph>
               </div>
               

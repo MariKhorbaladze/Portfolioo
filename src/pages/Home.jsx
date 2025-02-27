@@ -8,8 +8,10 @@ const Home = () => {
     <div>
       <Row gutter={[32, 32]} align="middle">
         <Col xs={24} md={12}>
-          <Title>Hello, I'm Mari Khorbaladze</Title>
-          <Title level={3}>Front-end Developer</Title>
+        <Title level={1}>
+          <span style={{ color: 'black' }}>Hello, I'm </span>
+          <span style={{ color: 'MediumAquaMarine' }}>Mari Khorbaladze</span>
+        </Title>
           <Paragraph>
             I'm an Junior Front-end Developer specializing in React. 
             I enjoy creating user-friendly interfaces that not only look 
@@ -38,7 +40,7 @@ const Home = () => {
 
       <Title level={2} style={{ marginTop: 60 }}>My Skills</Title>
       <Row gutter={[16, 16]}>
-        {['React', 'JavaScript', 'HTML/CSS', 'Redux', 'Node.js', 'Git'].map((skill) => (
+        {['React', 'JavaScript ES6', 'HTML/CSS', 'Redux', 'Git'].map((skill) => (
           <Col xs={12} sm={8} md={6} key={skill}>
             <Card hoverable>
               <div style={{ textAlign: 'center' }}>
