@@ -14,7 +14,7 @@ const About = () => {
             <span style={{ color: 'MediumAquaMarine' }}>Mari Khorbaladze</span>
           </Title>
           </Paragraph>
-          <Paragraph>
+          <Paragraph style={{letterSpacing: '1px' }}>
           Although I am still a junior specialist, I have big plans for the future. I constantly strive for self-improvement and acquiring new skills in my field. I enjoy challenges and problem-solving as they provide opportunities for professional growth. I am goal-oriented, organized, and responsible, capable of working effectively both independently and in a team. My aim is to find a position where I can fully realize my potential and contribute to the company's success.
           </Paragraph>
         </Col>

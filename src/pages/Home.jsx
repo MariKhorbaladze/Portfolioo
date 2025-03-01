@@ -30,17 +30,11 @@ const Home = () => {
           </Space>
         </Col>
         <Col xs={24} md={12}>
-          <img
-            // src="https://via.placeholder.com/500x500"
-            // alt="Profile Photo"
-            style={{ maxWidth: '100%', borderRadius: '50%' }}
-          />
         </Col>
       </Row>
-
       <Title level={2} style={{ marginTop: 60 }}>My Skills</Title>
       <Row gutter={[16, 16]}>
-        {['React', 'JavaScript ES6', 'HTML/CSS', 'Redux', 'Git'].map((skill) => (
+        {['React', 'JavaScript ES6', 'HTML/CSS', 'Redux Toolkit/Context API', 'Git', 'Ant Design'].map((skill) => (
           <Col xs={12} sm={8} md={6} key={skill}>
             <Card hoverable>
               <div style={{ textAlign: 'center' }}>

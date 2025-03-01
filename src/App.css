@@ -12,7 +12,7 @@
   min-height: 280px;
   margin-top: 24px;
   border-radius: 8px;
-  transition: 0.000001s;
+  
 }
 
 .logo {
@@ -31,3 +31,4 @@
 .nav-menu {
   margin-left: 25px;
 }
+
