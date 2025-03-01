@@ -1,8 +1,11 @@
-# React + Vite
+# React Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive portfolio website built with React, Vite, and Ant Design. This project showcases my front-end development skills.
 
-Currently, two official plugins are available:
+## Features
+- Clean, responsive UI using Ant Design components
+- Multi-page layout with React Router
+- Project showcase with filterable categories
+- Contact section with social media links
+- Optimized performance with Vite
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
