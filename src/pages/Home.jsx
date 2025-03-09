@@ -12,13 +12,21 @@ const Home = () => {
           <span style={{ color: 'black' }}>Hello, I'm </span>
           <span style={{ color: 'MediumAquaMarine' }}>Mari Khorbaladze</span>
         </Title>
-          <Paragraph>
+          <Paragraph style={{letterSpacing: '1px', color: 'DarkBlue' }}>
             I'm an Junior Front-end Developer specializing in React. 
             I enjoy creating user-friendly interfaces that not only look 
             beautiful but also work efficiently.
           </Paragraph>
           <Space size="middle">
-            <Button type="primary" size="large" icon={<DownloadOutlined />} href="/resume.pdf" target="_blank">
+            <Button 
+              type="primary"
+              size="large"
+              icon={<DownloadOutlined />}
+              href="/src/assets/resume.pdf"
+              target="_blank"
+              download="resumeMariKhorbaladze.pdf"
+              data-filetype="application/pdf"
+            >
               Resume
             </Button>
             <Button type="default" size="large" icon={<GithubOutlined />} href="https://github.com/MariKhorbaladze" target="_blank">
@@ -34,7 +42,7 @@ const Home = () => {
       </Row>
       <Title level={2} style={{ marginTop: 60 }}>My Skills</Title>
       <Row gutter={[16, 16]}>
-        {['React', 'JavaScript ES6', 'HTML/CSS', 'Redux Toolkit/Context API', 'Git', 'Ant Design'].map((skill) => (
+        {['React', 'JavaScript ES6', 'HTML/CSS', 'Redux Toolkit', 'Context API', 'Git/Github Version Control', 'Ant Design'].map((skill) => (
           <Col xs={12} sm={8} md={6} key={skill}>
             <Card hoverable>
               <div style={{ textAlign: 'center' }}>
