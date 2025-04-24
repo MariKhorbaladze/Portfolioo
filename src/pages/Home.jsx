@@ -22,7 +22,7 @@ const Home = () => {
               type="primary"
               size="large"
               icon={<DownloadOutlined />}
-              href="/src/assets/resume.pdf"
+              href="/src/assets/cv.pdf"
               target="_blank"
               download="resumeMariKhorbaladze.pdf"
               data-filetype="application/pdf"
@@ -42,7 +42,7 @@ const Home = () => {
       </Row>
       <Title level={2} style={{ marginTop: 60 }}>My Skills</Title>
       <Row gutter={[16, 16]}>
-        {['React.js', 'React Native', 'JavaScript ES6', 'HTML5/CSS3', 'Redux Toolkit', 'Context API', 'Git/Github Version Control', 'Teamwork', 'Ant Design','Problem Solving', 'Bootstrap', 'Responsive Web Design', 'Tailwind'].map((skill) => (
+        {['React.js', 'React Native', 'REST API', 'JavaScript ES6', 'HTML5/CSS3', 'Redux Toolkit', 'Context API', 'Git/Github Version Control', 'Teamwork', 'Ant Design','Problem Solving', 'Bootstrap', 'Responsive Web Design', 'Tailwind'].map((skill) => (
           <Col xs={12} sm={8} md={6} key={skill}>
             <Card hoverable>
               <div style={{ textAlign: 'center' }}>
